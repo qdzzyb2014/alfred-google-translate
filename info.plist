@@ -67,7 +67,15 @@
 				<false/>
 			</dict>
 		</array>
+		<key>525521A9-62B9-40EE-B9D6-EB1B484BA29D</key>
+		<array/>
+		<key>ADDC8E18-0DF1-4EB3-8364-78E59718C8DF</key>
+		<array/>
 	</dict>
+	<key>createdby</key>
+	<string>hanwen.huang</string>
+	<key>description</key>
+	<string>Alfred 3 workflow to translate between zh-cn and en with google tanslate api</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -109,6 +117,29 @@
 			<string>0FEE46A9-C5D7-4A1B-BECB-2169F9EC2A89</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>say {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>525521A9-62B9-40EE-B9D6-EB1B484BA29D</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -160,29 +191,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>say {query}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>525521A9-62B9-40EE-B9D6-EB1B484BA29D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>inputstring</key>
 				<string>{var:pronounce}</string>
 				<key>matchcasesensitive</key>
@@ -226,45 +234,49 @@
 		<key>0FEE46A9-C5D7-4A1B-BECB-2169F9EC2A89</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>450</integer>
 			<key>ypos</key>
 			<integer>40</integer>
 		</dict>
 		<key>287F7DE4-2A8A-4356-9659-797E2F2AE72A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>130</integer>
+			<integer>170</integer>
 			<key>ypos</key>
-			<integer>130</integer>
+			<integer>160</integer>
 		</dict>
 		<key>32FF43BA-C0C3-44F4-916A-E171D9230512</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>460</integer>
 			<key>ypos</key>
-			<integer>300</integer>
+			<integer>310</integer>
 		</dict>
 		<key>430B9A7D-20CA-4342-B935-5172B5DB8956</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>450</integer>
 			<key>ypos</key>
 			<integer>170</integer>
 		</dict>
 		<key>525521A9-62B9-40EE-B9D6-EB1B484BA29D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>650</integer>
 			<key>ypos</key>
 			<integer>140</integer>
 		</dict>
 		<key>ADDC8E18-0DF1-4EB3-8364-78E59718C8DF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>600</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>1.1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/xfslove/alfred-google-translate#readme</string>
 </dict>
 </plist>
