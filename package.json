@@ -1,6 +1,6 @@
 {
   "name": "alfred-google-translate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Alfred 3 workflow to translate between zh-cn and en with google tanslate api",
   "license": "MIT",
   "repository": "xfslove/alfred-google-translate",
@@ -32,6 +32,7 @@
   ],
   "dependencies": {
     "alfy": "^0.6.0",
+    "axios": "^0.18.0",
     "china-google-translate-api": "latest",
     "is-chinese": "^1.2.5"
   },

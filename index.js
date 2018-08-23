@@ -2,6 +2,7 @@
 const alfy = require('alfy');
 const translate = require('china-google-translate-api');
 const isChinese = require('is-chinese');
+const axios = require('axios')
 
 const q = alfy.input;
 const to = isChinese(q) ? 'en' : 'zh-CN';
@@ -63,6 +64,10 @@ translate(q, {raw: true, to: to}).then(data => {
       autocomplete: corrected 
     });
   }
-  
+
+  output.q = q
+  if (rawObj[1]) {
+    axios.post('http://127.0.0.1:8080/tool/words', output)
+  }
   console.log(JSON.stringify(output, null, '\t'));
 });
