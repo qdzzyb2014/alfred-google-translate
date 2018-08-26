@@ -65,9 +65,8 @@ translate(q, {raw: true, to: to}).then(data => {
     });
   }
 
-  output.q = q
   if (rawObj[1]) {
-    axios.post('http://139.199.25.180:8001/tool/words', output)
+    axios.get('http://139.199.25.180:8001/tool/words/' + q)
   }
   console.log(JSON.stringify(output, null, '\t'));
 });
