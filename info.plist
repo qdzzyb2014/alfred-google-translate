@@ -173,7 +173,7 @@
           <key>scriptfile</key>
           <string/>
           <key>subtext</key>
-          <string>Update available: 1.1.1 → 1.1.0. Run `npm install -g alfred-google-translate`</string>
+          <string>Update available: 1.1.1 → 1.1.4. Run `npm install -g alfred-google-translate`</string>
           <key>title</key>
           <string>translate with google</string>
           <key>type</key>

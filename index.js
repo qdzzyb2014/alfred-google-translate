@@ -66,7 +66,7 @@ translate(q, {raw: true, to: to}).then(data => {
   }
 
   if (rawObj[1]) {
-    axios.get('http://139.199.25.180:8001/tool/words/' + q)
+    axios.get('http://139.199.25.180:8001/tool/words/' + q + '?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InFkenp5YiIsInBhc3N3b3JkIjoid2xqMTk5MjcyIiwiaXNzIjoid29yZHMifQ.J-hQjzzXm5zv691Rk9UpWntilIIlqhCPbWCGC8OnsK8')
   }
   console.log(JSON.stringify(output, null, '\t'));
 });
